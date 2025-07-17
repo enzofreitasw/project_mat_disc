@@ -7,7 +7,7 @@ from cryptography.hazmat.primitives.asymmetric import padding
 if len(sys.argv) != 3:
     print(f"Uso: python {sys.argv[0]} <arquivo_para_criptografar> <arquivo_chave_publica.pem>")
     sys.exit(1)
-
+# teste commit git
 arquivo_original = sys.argv[1]
 arquivo_chave_publica = sys.argv[2]
 arquivo_cifrado = f"{arquivo_original}.cifrado"
