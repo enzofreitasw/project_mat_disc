@@ -2,6 +2,7 @@
 import sys
 from cryptography.hazmat.primitives import serialization, hashes
 from cryptography.hazmat.primitives.asymmetric import padding
+import math
 
 # Verifica se os argumentos da linha de comando foram passados corretamente
 if len(sys.argv) != 3:
@@ -12,7 +13,7 @@ arquivo_original = sys.argv[1]
 arquivo_chave_publica = sys.argv[2]
 arquivo_cifrado = f"{arquivo_original}.cifrado"
 
-print(f"Criptografando '{arquivo_original}'...")
+print(f"Criptografannndo '{arquivo_original}'...")
 
 # 1. Carrega a chave pública do arquivo
 with open(arquivo_chave_publica, "rb") as key_file:
