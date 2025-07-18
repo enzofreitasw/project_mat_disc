@@ -23,4 +23,4 @@ print(f"Mensagem Cifrada (como número): {mensagem_cifrada_num}")
 with open('mensagem_cifrada.txt', 'w') as f:
     f.write(str(mensagem_cifrada_num))
 
-print("Mensagem cifrada salva em 'mensagem_cifrada.txt'")
+print("Mensagem não cifrada salva em 'mensagem_cifrada.txt'")
