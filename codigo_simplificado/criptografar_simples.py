@@ -9,7 +9,7 @@ n = chave_publica['n']
 
 # Mensagem original (deve ser um número menor que 'n')
 # No nosso caso, n = 187, então a mensagem deve ser um número < 187
-mensagem_original_num = 88 # 'M'
+mensagem_original_num = 51 # 'Pinga'
 print(f"Mensagem Original (como número): {mensagem_original_num}")
 
 # Criptografia usando a aritmética modular
